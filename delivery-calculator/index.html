@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор доставки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор доставки</h1>
+        <form id="calc-form">
+            <label>
+                Вес посылки (кг):
+                <input type="number" id="weight" min="0.1" step="0.1" required>
+            </label>
+            <label>
+                Город доставки:
+                <select id="city" required>
+                    <option value="1000">Москва</option>
+                    <option value="800">Санкт-Петербург</option>
+                    <option value="500">Екатеринбург</option>
+                </select>
+            </label>
+            <button type="submit">Рассчитать</button>
+        </form>
+        <p id="result">Стоимость: 0 руб.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
