@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея фотографа</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Галерея фотографа</h1>
+            <p>Красивые моменты, запечатлённые навсегда</p>
+        </div>
+    </header>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="filters">
+                <button data-filter="all" class="active">Все</button>
+                <button data-filter="portrait">Портреты</button>
+                <button data-filter="landscape">Пейзажи</button>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" data-category="portrait" alt="Портрет 1">
+                <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846" data-category="landscape" alt="Пейзаж 1">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb" data-category="portrait" alt="Портрет 2">
+                <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e" data-category="landscape" alt="Пейзаж 2">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" data-category="portrait" alt="Портрет 3">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" data-category="landscape" alt="Пейзаж 3">
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
