@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Твой Имя</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <h1>Твой Имя</h1>
+            <p>Верстальщик и фронтенд-разработчик</p>
+            <nav>
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#portfolio">Проекты</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about">
+    <div class="container">
+        <h2>Обо мне</h2>
+        <img src="photo.jpg" alt="Моё фото" class="about-photo">
+        <p>Привет! Я Дмитрий, фронтенд-разработчик с большим желанием создавать красивые и удобные сайты. Уже разобрался в HTML, CSS и JavaScript, умею верстать адаптивные страницы и добавлять интерактив с помощью скриптов. Моя цель — превращать ваши идеи в реальность с чистым кодом и вниманием к деталям. Всегда открыт к новым задачам и готов учиться, чтобы ваши проекты были на высоте!</p>
+    </div>
+</section>
+
+    <!-- Навыки -->
+    <section id="skills">
+        <div class="container">
+            <h2>Мои навыки</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3 (Flexbox, Grid, Анимации)</li>
+                <li>JavaScript (ES6+, DOM)</li>
+                <li>Адаптивная и кроссбраузерная вёрстка</li>
+                <li>Git и базовый Figma</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="portfolio">
+    <div class="container">
+        <h2>Мои проекты</h2>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <h3>Калькулятор доставки</h3>
+                    <p>Интерактивный калькулятор на JavaScript для расчёта стоимости доставки. Стилизован с помощью CSS Flexbox.</p>
+                    <a href="https://username.github.io/delivery-calculator/" target="_blank">Смотреть проект</a>
+                </div>
+                <div class="slide">
+                    <h3>Лендинг для кофейни</h3>
+                    <p>Одностраничный сайт с анимациями и слайдером отзывов. Использовал HTML, CSS Grid и JavaScript.</p>
+                    <a href="#" target="_blank">Смотреть проект (скоро будет)</a>
+                </div>
+                <div class="slide">
+                    <h3>Галерея фотографа</h3>
+                    <p>Галерея с фильтрами на JavaScript, адаптивный дизайн на CSS Grid. Лёгкий и быстрый сайт.</p>
+                    <a href="#" target="_blank">Смотреть проект (скоро будет)</a>
+                </div>
+            </div>
+            <button class="prev">←</button>
+            <button class="next">→</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Контакты -->
+    <section id="contact">
+        <div class="container">
+            <h2>Связаться со мной</h2>
+            <p>Email: tvoe_email@example.com</p>
+            <p>Telegram: @tvoi_nik</p>
+            <form>
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
